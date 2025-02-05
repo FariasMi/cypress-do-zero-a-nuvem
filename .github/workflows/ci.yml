@@ -1,8 +1,5 @@
 name: End-to-end tests
-on:
-  push:
-    branches:
-      - main    
+on: push
 jobs:
   cypress-run:
     runs-on: ubuntu-22.04
@@ -10,4 +7,4 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Cypress run
-        uses: 
+        uses: cypress-io/github-action@v2

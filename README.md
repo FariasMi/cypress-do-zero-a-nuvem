@@ -1,28 +1,28 @@
-# 🌲 Cypress, do Zero à Nuvem ☁️
+# Cypress do zero à nuvem
 
-👋 Seja bem-vindo(a)!
+Projeto com os principais comandos e automação end2end com cypress e integração com github actions.
 
-É muito bom tê-lo(a) aqui. Tenho certeza que você vai amar esse curso. ❤️
+## Pré-requisito
+É necessário possuir instalado o Node.js para rodar este projeto
 
-## O que você vai aprender?
 
-- Como configurar um projeto Cypress do zero
-- Como visitar páginas locais e remotas
-- Como lidar com os elementos mais comuns encontrados em aplicações web
-- Como testar upload de arquivos
-- Como realizar as mais diversas verificações de resultados esperados
-- Como criar comandos customizados
-- Como lidar com links que abrem em outra aba do navegador
-- Como rodar testes simulando as dimensões de um dispositivo móvel
-- Como resolver os mesmos problemas de diferentes formas, conhecendo a [API do Cypress](https://docs.cypress.io/api/table-of-contents)
-- Como criar uma documentação mínima para seu projeto de testes automatizados
-- Como executar os testes em um _workflow_ de integração contínua sempre que mudanças ocorrerem no código da aplicação (ou dos testes)
-- Como integrar seu _workflow_ de integração contínua com o Cypress Cloud (o serviço de gestão de testes do Cypress na nuvem)
+> Estou utilizando as versões `v20.16.0` e `10.8.0` do Node.js e npm, respectivamente. Sugiro que use as versões mais recentes.
 
-## Vamos começar?
+## Passos para instalação
 
-Vá para a seção [estrutura do curso](./lessons/_course-structure_.md).
+Execute `npm install` (ou `npm i` a versão mais curta) para instalar as dependências de desenvolvimento.
 
-___
+## Desktop
+Execute `npm run test` (or `npm t` para a versão mais curta) para rodar os testes no modo headless no modo Desktop
 
-Este é um curso da **Escola Talking About Testing**.
+ou `npm run cy:open` para abrir o Cypress App no modo interativo
+
+## Mobile
+Execute `npm  run test:mobile`  para rodar os testes no modo headless. 
+Ou execute  `npm  run cy:open:mobile` para abrir o Cypress App no modo interativo
+
+
+
+
+
+
